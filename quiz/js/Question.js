@@ -8,4 +8,5 @@ export default class Question {
   isCorrect(guessKey) {
     return guessKey === this.answerKey;
   }
+  
 }
